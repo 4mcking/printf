@@ -2,6 +2,7 @@
 <p>Write your own <code>printf</code> function.</p>
 <h2><strong>Description</strong></h2>
 <p>The <strong>printf project</strong> was made for <a href="https://github.com/4mcking">Kingson Emma-Ochu</a> and <a href="https://github.com/Horlew-myde">Olumide Amune</a>. Students of <a href="https://www.alxafrica.com/"> ALX School</a>. For this project we have some instruction that you will see in this README.</p>
+<h4 class="task">
 0. I&#39;m not going anywhere. You can print that wherever you want to. I&#39;m here and I&#39;m a Spur for life
 <span class="alert alert-warning mandatory-optional">
 mandatory
