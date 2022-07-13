@@ -9,6 +9,10 @@ mandatory
 </span>
 </h4>
 <p>Write a function that produces output according to a format.</p>
+<li>Prototype: <code>int _printf(const char *format, ...);</code></li>
+<li>Returns: the number of characters printed (excluding the null byte used to end output to strings)</li>
+<li>write output to stdout, the standard output stream</li>
+<li><code>format</code> is a character string. The format string is composed of zero or more directives. See <code>man 3 <li>printf</code> for more detail. You need to handle the following conversion specifiers:</li>
 <ul>
 <li><code>c</code></li>
 <li><code>s</code></li>
@@ -36,15 +40,7 @@ mandatory
 <li>You don&rsquo;t have to handle the length modifiers</li>
 </ul>
 <h4 class="task">
-2. Just because it&#39;s in print doesn&#39;t mean it&#39;s the gospel
-<span class="alert alert-warning mandatory-optional">
-mandatory
-</span>
-</h4>
-<p>Create a man page for your function.</p>
-<h4 class="task">
-ADVANCED TASKS
-3. With a face like mine, I do better in print
+2. With a face like mine, I do better in print
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
@@ -54,7 +50,7 @@ ADVANCED TASKS
 <li><code>b</code>: the unsigned int argument is converted to binary</li>
 </ul>
 <h4 class="task">
-4. What one has not experienced, one will never understand in print
+3. What one has not experienced, one will never understand in print
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
@@ -71,19 +67,23 @@ ADVANCED TASKS
 <li>You don&rsquo;t have to handle the length modifiers</li>
 </ul>
 <h4 class="task">
-5. Nothing in fine print is ever good news
+4. Nothing in fine print is ever good news
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
 </h4>
 <p>Use a local buffer of 1024 chars in order to call <code>write</code> as little as possible.</p>
 <h4 class="task">
-7. My weakness is wearing too much leopard print
+5. My weakness is wearing too much leopard print
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
 </h4>
 <p>Handle the following custom conversion specifier:</p>
+<ul>
+<li><code>S</code> : prints the string.</li>
+<li>Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: <code>\x</code>, followed by the ASCII code value in hexadecimal (upper case - always 2 characters)</li>
+</ul>
 <h4 class="task">
 6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
 <span class="alert alert-info mandatory-optional">
@@ -98,7 +98,7 @@ ADVANCED TASKS
 <li>You don&rsquo;t have to handle the length modifiers</li>
 </ul>
 <h4 class="task">
-8. The big print gives and the small print takes away
+7. The big print gives and the small print takes away
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
@@ -110,7 +110,7 @@ ADVANCED TASKS
 <li><code>#</code></li>
 </ul>
 <h4 class="task">
-9. Sarcasm is lost in print
+8. Sarcasm is lost in print
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
@@ -122,35 +122,35 @@ ADVANCED TASKS
 </ul>
 <p>Conversion specifiers to handle: <code>d</code>, <code>i</code>, <code>u</code>, <code>o</code>, <code>x</code>, <code>X</code></p>
 <h4 class="task">
-10. Print some money and give it to us for the rain forests
+9. Print some money and give it to us for the rain forests
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
 </h4>
 <p>Handle the field width for non-custom conversion specifiers.</p>
 <h4 class="task">
-11. The negative is the equivalent of the composer&#39;s score, and the print the performance
+10. The negative is the equivalent of the composer&#39;s score, and the print the performance
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
 </h4>
 <p>Handle the precision for non-custom conversion specifiers.</p>
 <h4 class="task">
-12. It&#39;s depressing when you&#39;re still around and your albums are out of print
+11. It&#39;s depressing when you&#39;re still around and your albums are out of print
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
 </h4>
 <p>Handle the <code>0</code> flag character for non-custom conversion specifiers.</p>
 <h4 class="task">
-13. Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection
+12. Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
 </h4>
 <p>Handle the <code>-</code> flag character for non-custom conversion specifiers.</p>
 <h4 class="task">
-14. Print is the sharpest and the strongest weapon of our party
+13. Print is the sharpest and the strongest weapon of our party
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
@@ -160,7 +160,7 @@ ADVANCED TASKS
 <li><code>r</code> : prints the reversed string</li>
 </ul>
 <h4 class="task">
-15. The flood of print has turned reading into a process of gulping rather than savoring
+14. The flood of print has turned reading into a process of gulping rather than savoring
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
@@ -170,7 +170,7 @@ ADVANCED TASKS
 <li><code>R</code>: prints the rot13&#39;ed string</li>
 </ul>
 <h4 class="task">
-16. *
+15. *
 <span class="alert alert-info mandatory-optional">
 #advanced
 </span>
