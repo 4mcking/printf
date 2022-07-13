@@ -2,9 +2,6 @@
 
 /**
  *
- * File: main.h
- * Auth: King CEO & Olumide Amune
- *
  * print_from_to - prints a range of char addresses
  * @start: starting address
  * @stop: stopping address
