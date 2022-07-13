@@ -1,6 +1,9 @@
 #include "main.h"
 
 /**
+ *
+ * File: main.h
+ * Auth: King CEO & Olumide Amune
  * init_params - function that clears struct fields and resets buf
  * @params: the parameters struct
  * @ap: the argument pointer
