@@ -1,9 +1,6 @@
 #include "main.h"
 
 /**
- *
- * File: main.h
- * Auth: King CEO & Olumide Amune
  * print_hex - prints unsigned hex numbers in lowercase
  * @ap: the argument pointer
  * @params: the parameters struct
