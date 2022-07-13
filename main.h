@@ -113,6 +113,7 @@ void init_params(params_t *params, va_list ap);
 
 /* string_fields.c modoule */
 char *get_precision(char *p, params_t *params, va_list ap);
+int get_precision(const char *format, int *i, va_list list);
 
 /* _prinf.c module */
 int _printf(const char *format, ...);
