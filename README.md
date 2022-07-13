@@ -1,23 +1,8 @@
 <h1 class="gap">0x11. C - printf</h1>
 <p>Write your own <code>printf</code> function.</p>
 <h2><strong>Description</strong></h2>
-<p>The <strong>printf project</strong>was made for <a href="https://github.com/4mcking">Kingson Emma-Ochu</a> and <a href="https://github.com/Horlew-myde">Olumide Amune</a>. Students of <a href="https://www.alxafrica.com/"> ALX School</a> For this project we have some instruction that you will see in this README.</p>
-<p><strong>Read or watch</strong>:</p>
-<ul>
-<li><a href="/rltoken/lQ4Ecz5ZX_H3fk2qhKO-RA" title="Secrets of printf" target="_blank">Secrets of printf</a> </li>
-<li><a href="/rltoken/K5q7wmUvcQcDMsyziDqu6Q" title="Group Projects" target="_blank">Group Projects</a> (<em>Don&rsquo;t forget to read this</em>)</li>
-<li><a href="/rltoken/92Ppxs-a3NM0H8bwLdH6PA" title="Flowcharts" target="_blank">Flowcharts</a></li>
-</ul>
-<p><strong>man or help</strong>:</p>
-<ul>
-<li><code>printf (3)</code></li>
-</ul>
-<ul>
-<li>Your code will be compiled this way:</li>
-</ul>
-<pre><code>$ gcc -Wall -Werror -Wextra -pedantic *.c
-</code></pre>
-<h4 class="task">
+<p>The <strong>printf project</strong> was made for <a href="https://github.com/4mcking">Kingson Emma-Ochu</a> and <a href="https://github.com/Horlew-myde">Olumide Amune</a>. Students of <a href="https://www.alxafrica.com/"> ALX School</a>. For this project we have some instruction that you will see in this README.</p>
+
 0. I&#39;m not going anywhere. You can print that wherever you want to. I&#39;m here and I&#39;m a Spur for life
 <span class="alert alert-warning mandatory-optional">
 mandatory
